@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom';
 
-function AppLayout() {
+function AdminAppLayout() {
   return (
     <div className="bg-slate-500">
-      <div>Top nav</div>
+      <div>Side nav</div>
       <main>
         <Outlet />
       </main>
@@ -11,4 +11,4 @@ function AppLayout() {
   );
 }
 
-export default AppLayout;
+export default AdminAppLayout;
